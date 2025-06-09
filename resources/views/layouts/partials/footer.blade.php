@@ -3,7 +3,9 @@
         <div class="flex flex-wrap mx-[-15px] xl:mx-0 lg:mx-0 !mt-[-30px]">
             <div class="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:px-0 lg:px-0 !mt-[30px]">
                 <div class="widget">
-                    <img class="!mb-4" src="images/logo-dark.png" srcset="images/logo-dark%402x.png 2x" alt="image">
+                    <a href="{{ route('home') }}">
+                        <x-application-logo/>
+                    </a>
                     <p class="lead text-[0.9rem] font-medium !leading-[1.65] !mb-0">Чаочай-бар. Приходите к нам</p>
                 </div>
                 <!-- /.widget -->
@@ -13,7 +15,7 @@
                 <div class="widget">
                     <div class="flex flex-row">
                         <div>
-                            <div class="icon !text-[#fab758] xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-4 !mt-[-0.25rem]"> <i class="uil uil-phone-volume before:content-['\ec50']"></i> </div>
+                            <div class="icon !text-[#28a745] xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-4 !mt-[-0.25rem]"> <i class="uil uil-phone-volume before:content-['\ec50']"></i> </div>
                         </div>
                         <div>
                             <h5 class="!mb-1">Телефон</h5>
@@ -29,7 +31,7 @@
                 <div class="widget">
                     <div class="flex flex-row">
                         <div>
-                            <div class="icon !text-[#fab758] xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-4 !mt-[-0.25rem]"> <i class="uil uil-location-pin-alt before:content-['\ebd8']"></i> </div>
+                            <div class="icon !text-[#28a745] xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-4 !mt-[-0.25rem]"> <i class="uil uil-location-pin-alt before:content-['\ebd8']"></i> </div>
                         </div>
                         <div class="!self-start !justify-start">
                             <h5 class="!mb-1">Адрес</h5>

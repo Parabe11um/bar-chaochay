@@ -7,7 +7,7 @@
                 <div class="container py-[4.5rem] xl:!py-24 lg:!py-24 md:!py-24">
                     <div class="flex flex-wrap mx-[-15px] md:mx-[-20px] lg:mx-[-20px] xl:mx-[-35px] !mt-[-30px] items-center">
                         <div class="md:w-8/12 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!order-2 lg:!order-2 !mx-auto md:!px-[20px] lg:!px-[20px] xl:!px-[35px] !mt-[30px]">
-                            <div class="img-mask mask-2"><img src="{{ asset('images/about30.jpg') }}" alt="image"></div>
+                            <div class="img-mask mask-2"><img src="{{ asset('images/10.jpg') }}" alt="image"></div>
                         </div>
                         <!--/column -->
                         <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full md:!px-[20px] lg:!px-[20px] xl:!px-[35px] !mt-[30px]">
@@ -56,7 +56,6 @@
                                         </div>
                                         <div>
                                             <h4 class="!mb-1">Локация на Красном Октябре</h4>
-                                            <p class="!mb-0">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -68,7 +67,6 @@
                                         </div>
                                         <div>
                                             <h4 class="!mb-1">Интересные соседи</h4>
-                                            <p class="!mb-0">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -80,7 +78,6 @@
                                         </div>
                                         <div>
                                             <h4 class="!mb-1">Вайб-мероприятия</h4>
-                                            <p class="!mb-0">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -92,7 +89,6 @@
                                         </div>
                                         <div>
                                             <h4 class="!mb-1">Дружелюбное пространство</h4>
-                                            <p class="!mb-0">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +100,6 @@
                                         </div>
                                         <div>
                                             <h4 class="!mb-1">Знакомство с чаем для новичков</h4>
-                                            <p class="!mb-0">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -121,9 +116,9 @@
             <!-- /.wrapper -->
         </section>
         <!-- /section -->
-        <div class="wrapper image-wrapper bg-image bg-overlay !text-white !bg-fixed bg-no-repeat bg-[center_center] bg-cover relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]" data-image-src="./assets/img/photos/bg34.jpg">
+        <div class="wrapper image-wrapper bg-image bg-overlay !text-white !bg-fixed bg-no-repeat bg-[center_center] bg-cover relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]" data-image-src="{{ asset('images/7.jpg') }}">
             <div class="container py-[6rem] xl:!py-[9rem] lg:!py-[9rem] md:!py-[9rem] !text-center">
-                <h2 class="xl:!text-[2.5rem] !text-[calc(1.375rem_+_1.5vw)] !leading-[1.15] font-semibold !text-white  !mb-0">I take photographs with <br class="hidden xl:block lg:block md:block"> creativity, concept & passion</h2>
+                <h2 class="xl:!text-[2.5rem] !text-[calc(1.375rem_+_1.5vw)] !leading-[1.15] font-semibold !text-white  !mb-0">Лучшее пространство,<br class="hidden xl:block lg:block md:block">где можйно выпить чай</h2>
             </div>
             <!-- /.container -->
         </div>
@@ -142,11 +137,11 @@
                     <div class="itemgrid grid-view projects-masonry">
                         <div class="isotope-filter !relative z-[5] filter !mb-10">
                             <ul class=" inline m-0 p-0 list-none">
-                                <li class="inline"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745] active" data-filter="*">All</a></li>
-                                <li class="inline before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:ml-2 before:mr-[0.8rem] before:my-0 before:rounded-[100%] before:bg-[rgba(30,34,40,.2)] before:align-[.15rem]"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745]" data-filter=".foods">Foods</a></li>
-                                <li class="inline before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:ml-2 before:mr-[0.8rem] before:my-0 before:rounded-[100%] before:bg-[rgba(30,34,40,.2)] before:align-[.15rem]"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745]" data-filter=".drinks">Drinks</a></li>
-                                <li class="inline before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:ml-2 before:mr-[0.8rem] before:my-0 before:rounded-[100%] before:bg-[rgba(30,34,40,.2)] before:align-[.15rem]"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745]" data-filter=".events">Events</a></li>
-                                <li class="inline before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:ml-2 before:mr-[0.8rem] before:my-0 before:rounded-[100%] before:bg-[rgba(30,34,40,.2)] before:align-[.15rem]"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745]" data-filter=".pastries">Pastries</a></li>
+                                <li class="inline"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745] active" data-filter="*">Все</a></li>
+                                <li class="inline before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:ml-2 before:mr-[0.8rem] before:my-0 before:rounded-[100%] before:bg-[rgba(30,34,40,.2)] before:align-[.15rem]"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745]" data-filter=".foods">Красный чай</a></li>
+                                <li class="inline before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:ml-2 before:mr-[0.8rem] before:my-0 before:rounded-[100%] before:bg-[rgba(30,34,40,.2)] before:align-[.15rem]"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745]" data-filter=".drinks">Белый чай</a></li>
+                                <li class="inline before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:ml-2 before:mr-[0.8rem] before:my-0 before:rounded-[100%] before:bg-[rgba(30,34,40,.2)] before:align-[.15rem]"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745]" data-filter=".events">Пуэр</a></li>
+                                <li class="inline before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:ml-2 before:mr-[0.8rem] before:my-0 before:rounded-[100%] before:bg-[rgba(30,34,40,.2)] before:align-[.15rem]"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745]" data-filter=".pastries">Зеленый чай</a></li>
                             </ul>
                         </div>
                         <div class="flex flex-wrap mx-[-15px] md:mx-[-15px] !mt-[-30px] isotope">
@@ -265,9 +260,9 @@
         </section>
         <!-- /section -->
         <section id="testimonials">
-            <div class="wrapper image-wrapper bg-image bg-overlay bg-fixed bg-no-repeat bg-[center_center] bg-cover relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]" data-image-src="./assets/img/photos/bg35.jpg">
+            <div class="wrapper image-wrapper bg-image bg-overlay bg-fixed bg-no-repeat bg-[center_center] bg-cover relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]" data-image-src="{{ asset('images/8.jpg') }}">
                 <div class="container py-[5rem] xl:!py-[7rem] lg:!py-[7rem] md:!py-[7rem]">
-                    <h2 class="xl:!text-[1.7rem] !text-[calc(1.295rem_+_0.54vw)] !leading-[1.25] !font-semibold !mb-4 !text-center !text-white">Happy Customers</h2>
+                    <h2 class="xl:!text-[1.7rem] !text-[calc(1.295rem_+_0.54vw)] !leading-[1.25] !font-semibold !mb-4 !text-center !text-white">Наша команда</h2>
                     <div class="swiper-container dots-closer dots-light dots-light-75" data-margin="0" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1">
                         <div class="swiper">
                             <div class="swiper-wrapper">
@@ -499,7 +494,7 @@
         </section>
         <!-- /section -->
         <section id="pricing">
-            <div class="wrapper image-wrapper bg-image bg-overlay bg-fixed bg-no-repeat bg-[center_center] bg-cover relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]" data-image-src="{{ asset('images/photos/bg36.jpg')}}">
+            <div class="wrapper image-wrapper bg-image bg-overlay bg-fixed bg-no-repeat bg-[center_center] bg-cover relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]" data-image-src="{{ asset('images/9.jpg') }}">
                 <div class="container py-[5rem] xl:!py-[7rem] lg:!py-[7rem] md:!py-[7rem]">
                     <div class="flex flex-wrap mx-[-15px]">
                         <div class="xl:w-9/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto">

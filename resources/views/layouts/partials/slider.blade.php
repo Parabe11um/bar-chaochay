@@ -1,7 +1,7 @@
 <section id="home">
     <div class="wrapper  bg-[rgba(246,247,249,1)]  overflow-hidden">
         <div class="container-fluid xl:!px-0 pt-6 pb-10">
-            <div class="swiper-container swiper-auto relative z-10" data-margin="30" data-dots="true" data-nav="true" data-centered="false" data-loop="true" data-iteml-auto="true">
+            <div class="swiper-container swiper-auto relative z-10" data-margin="30" data-dots="true" data-nav="true" data-centered="false" data-loop="true" data-items-auto="true">
                 <div class="swiper overflow-visible">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide group">

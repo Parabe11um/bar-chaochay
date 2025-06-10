@@ -29,11 +29,10 @@
             <!-- /.widget -->
             <div class="widget !mb-8">
                 <h4 class="widget-title !text-white !mb-[0.75rem] !text-[1rem] !tracking-[normal] font-semibold !leading-[1.45]">
-                    Contact Info</h4>
-                <address class=" not-italic !leading-[inherit] !mb-[1rem]"> Moonshine St. 14/05 <br> Light City, London
-                </address>
+                    Контакты</h4>
+                <address class=" not-italic !leading-[inherit] !mb-[1rem]">г. Москва, Берсеневский пер 5с2</address>
                 <a class="!text-[#cacaca] hover:!text-[#28a745]"
-                   href="mailto:first.last@email.com">info@email.com</a><br> 00 (123) 456 78 90
+                   href="mailto:bar@chaochay.ru">bar@chaochay.ru</a><br><a href="tel:+79258799942">8-925-87-999-42</a>
             </div>
             <!-- /.widget -->
             <div class="widget !mb-8">
@@ -55,7 +54,7 @@
                     Follow Us</h4>
                 <nav class="nav social social-white">
                     <a class="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
-                       href="#"><i class="uil uil-twitter before:content-['\ed59'] !text-white text-[1rem]"></i></a>
+                       href="#"><i class="uil telegram-alt before:content-['\ed59'] !text-white text-[1rem]"></i></a>
                     <a class="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
                        href="#"><i class="uil uil-facebook-f before:content-['\eae2'] !text-white text-[1rem]"></i></a>
                     <a class="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"

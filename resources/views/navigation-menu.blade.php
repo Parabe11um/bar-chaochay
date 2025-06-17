@@ -18,14 +18,11 @@
         </div>
         <div class="offcanvas-body flex  flex-col !h-full">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745] active" href="#home">Главная</a></li>
+                <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#about">О нас</a></li>
                 <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#services">Афиша</a></li>
                 <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#portfolio">Наш чай</a></li>
-                <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#testimonials">Услуги</a></li>
-                <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#testimonials">Цены</a></li>
-                <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#about">О нас</a></li>
                 <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#pricing">Меню бара</a></li>
-                <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#pricing">Команда</a></li>
+                <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#testimonials">Услуги</a></li>
                 <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#pricing">Контакты</a></li>
             </ul>
             <!-- /.navbar-nav -->
@@ -48,13 +45,7 @@
     </div>
     <!-- /.navbar-collapse -->
     <div class="navbar-other w-full flex">
-        <ul class="navbar-nav !flex-row !items-center !ml-auto">
-            <li class="nav-item"><a class="nav-link hover:!text-[#28a745] focus:!text-[#28a745]" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-search"><i class="uil uil-search before:content-['\eca5'] !text-[1.1rem]"></i></a></li>
-            <li class="nav-item xl:!hidden lg:!hidden">
-                <button class="hamburger offcanvas-nav-btn"><span></span></button>
-            </li>
-        </ul>
-        <!-- /.navbar-nav -->
+
     </div>
     <!-- /.navbar-other -->
 </div>

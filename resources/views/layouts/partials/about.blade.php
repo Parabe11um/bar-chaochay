@@ -22,7 +22,7 @@
                     </ul>
 
 
-                    <a href="#" class="btn btn-yellow !text-white !bg-[#28a745] border-[#28a745] hover:text-white hover:bg-[#28a745] hover:!border-[#28a745]   active:text-white active:bg-[#28a745] active:border-[#28a745] disabled:text-white disabled:bg-[#28a745] disabled:border-[#28a745] !rounded-[50rem] !mt-2 hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]">Связаться</a>
+                    <a href="#contact" class="btn btn-yellow scroll !text-white !bg-[#28a745] border-[#28a745] hover:text-white hover:bg-[#28a745] hover:!border-[#28a745]   active:text-white active:bg-[#28a745] active:border-[#28a745] disabled:text-white disabled:bg-[#28a745] disabled:border-[#28a745] !rounded-[50rem] !mt-2 hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]">Связаться</a>
                 </div>
                 <!--/column -->
             </div>

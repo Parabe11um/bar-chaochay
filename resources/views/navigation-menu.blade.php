@@ -26,27 +26,15 @@
                 </li>
                 <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#poster">Афиша</a></li>
                 <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#tea-items">Наш чай</a></li>
-                <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="/public/menu.pdf">Меню чая</a></li>
-                <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#services">Услуги</a>
-                </li>
+                <li class="nav-item"><a class="nav-link hover:!text-[#28a745]" href="{{ asset('menu.pdf') }}" target="_blank">Наше меню</a></li>
                 <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#contact">Контакты</a></li>
             </ul>
             <!-- /.navbar-nav -->
             <div class="offcanvas-footer xl:!hidden lg:!hidden">
                 <div>
-                    <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
-                    <br> 00 (123) 456 78 90 <br>
+                    <a href="mailto:first.last@email.com" class="link-inverse">bar@chaochay.ru</a>
+                    <br> <a href="tel:+79258799942">8-925-87-999-42</a>  <br>
                     <nav class="nav social social-white !mt-4">
-                        <a class="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
-                           href="#"><i class="uil uil-twitter before:content-['\ed59'] !text-white text-[1rem]"></i></a>
-                        <a class="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
-                           href="#"><i class="uil uil-facebook-f before:content-['\eae2'] !text-white text-[1rem]"></i></a>
-                        <a class="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
-                           href="#"><i
-                                class="uil uil-dribbble before:content-['\eaa2'] !text-white text-[1rem]"></i></a>
-                        <a class="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
-                           href="#"><i
-                                class="uil uil-instagram before:content-['\eb9c'] !text-white text-[1rem]"></i></a>
                         <a class="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
                            href="#"><i class="uil uil-youtube before:content-['\edb5'] !text-white text-[1rem]"></i></a>
                     </nav>
@@ -59,9 +47,6 @@
     <!-- /.navbar-collapse -->
     <div class="navbar-other w-full flex">
         <ul class="navbar-nav !flex-row !items-center !ml-auto">
-            <li class="nav-item"><a class="nav-link hover:!text-[#28a745] focus:!text-[#28a745]"
-                                    data-bs-toggle="offcanvas" data-bs-target="#offcanvas-search"><i
-                        class="uil uil-search before:content-['\eca5'] !text-[1.1rem]"></i></a></li>
             <li class="nav-item xl:!hidden lg:!hidden">
                 <button class="hamburger offcanvas-nav-btn"><span></span></button>
             </li>

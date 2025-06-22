@@ -15,7 +15,7 @@
         @include('layouts.partials.poster')
         @include('layouts.partials.tea-items')
 {{--        @include('layouts.partials.our-team')--}}
-        @include('layouts.partials.services')
+{{--        @include('layouts.partials.services')--}}
         @include('layouts.partials.contact')
 
         <!-- /section -->

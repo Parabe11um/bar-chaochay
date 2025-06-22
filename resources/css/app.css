@@ -6,3 +6,13 @@
 [x-cloak] {
     display: none;
 }
+
+.events-text{
+    min-height: 170px!important;
+}
+
+
+#swiper-controls .swiper-button {
+    background-color: #28a745 !important;
+    color: var(--color-white);
+}

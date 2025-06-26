@@ -21,9 +21,9 @@
                              style="width: 410px; margin-right: 30px;">
                             <article class="h-full">
                                 <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between min-h-[500px]">
-                                    <figure class="card-img-top overlay overlay-1 group"><a href="#"> <img class="h-[250px] object-cover"
+                                    <figure class="card-img-top overlay overlay-1 group"><img class="h-[250px] object-cover"
                                                 src="{{ asset('images/a1.jpg') }}" srcset="{{ asset('images/a1.jpg') }}"
-                                                alt="image"><span class="bg"></span></a>
+                                                alt="image"><span class="bg"></span>
                                         <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-left px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
 
                                             <p>💮 Стоимость: 3800 р.</p>
@@ -62,9 +62,9 @@
                              style="width: 410px; margin-right: 30px;">
                             <article class="h-full">
                                 <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between min-h-[500px]">
-                                    <figure class="card-img-top overlay overlay-1 group"><a href="#"> <img class="w-full h-[250px] object-cover"
+                                    <figure class="card-img-top overlay overlay-1 group"><img class="w-full h-[250px] object-cover"
                                                 src="{{ asset('images/a2.jpg') }}" srcset="{{ asset('images/a2.jpg') }}"
-                                                alt="image">
+                                                alt="image"><span class="bg"></span>
                                             <figcaption
                                                 class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-left px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
 
@@ -101,9 +101,9 @@
                              style="width: 410px; margin-right: 30px;">
                             <article class="h-full">
                                 <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between min-h-[500px]">
-                                    <figure class="card-img-top overlay overlay-1 group"><a href="#"> <img class="w-full h-[250px] object-cover"
+                                    <figure class="card-img-top overlay overlay-1 group"><img class="w-full h-[250px] object-cover"
                                                 src="{{ asset('images/a3.jpg') }}" srcset="{{ asset('images/a5.jpg') }}"
-                                                alt="image"><span class="bg"></span></a>
+                                                alt="image"><span class="bg"></span>
                                         <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-left px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
                                             <p>💮 Стоимость участия: 2600 руб.</p>
                                             <p>✅ Бронирование мест по предоплате: телефон (телегамм, вотсап) ☎️
@@ -115,8 +115,7 @@
                                         <div class="post-header">
                                             <!-- /.post-category -->
                                             <h2 class="post-title h3 !mt-1 !mb-3 !text-[1.15rem] !font-semibold !tracking-[normal]">
-                                                <a class="!text-[#343f52] hover:!text-[#7cb798]" href="/blog-post">Мастер-класс
-                                                    по лепке пиалы из глины</a></h2>
+                                                Мастер-класс по лепке пиалы из глины</h2>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-footer mt-auto">
@@ -139,9 +138,9 @@
                         <div class="swiper-slide" role="group" aria-label="4 / 4"
                              style="width: 410px; margin-right: 30px;">
                             <article class="h-full">
-                                <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between min-h-[500px]">           <figure class="card-img-top overlay overlay-1 group"><a href="#"> <img class="w-full h-[250px] object-cover"
+                                <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between min-h-[500px]">           <figure class="card-img-top overlay overlay-1 group"><img class="w-full h-[250px] object-cover"
                                                 src="{{ asset('images/a4.jpg') }}" srcset="{{ asset('images/a4.jpg') }}"
-                                                alt="image"><span class="bg"></span></a>
+                                                alt="image"><span class="bg"></span>
                                         <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-left px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
 
                                             <p>15 июня в 15.00 - Чайная церемония с Алексеем</p>
@@ -154,8 +153,8 @@
                                         <div class="post-header">
                                             <!-- /.post-category -->
                                             <h2 class="post-title h3 !mt-1 !mb-3 !text-[1.15rem] !font-semibold !tracking-[normal]">
-                                                <a class="!text-[#343f52] hover:!text-[#7cb798]" href="/blog-post">Чайная
-                                                    церемония с Алексеем</a></h2>
+                                                Чайная церемония с Алексеем
+                                            </h2>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-footer mt-auto">

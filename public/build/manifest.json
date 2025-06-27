@@ -1,6 +1,10 @@
 {
+  "public/images/3.jpg": {
+    "file": "assets/3-C-YJe_xP.jpg",
+    "src": "public/images/3.jpg"
+  },
   "resources/css/app.css": {
-    "file": "assets/app-C1-zZSGX.css",
+    "file": "assets/app-wiqpxqUO.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },

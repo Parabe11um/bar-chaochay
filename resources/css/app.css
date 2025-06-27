@@ -16,3 +16,14 @@
     background-color: #28a745 !important;
     color: var(--color-white);
 }
+
+
+.main-top-bg{
+    background-image: url("../../public/images/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-top-cta{
+    align-content: center;
+}

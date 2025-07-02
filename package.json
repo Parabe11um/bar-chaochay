@@ -19,6 +19,7 @@
         "vite": "^6.2.4"
     },
     "dependencies": {
+        "alpinejs": "^3.14.9",
         "imagesloaded": "^5.0.0",
         "isotope": "^1.0.0-alpha.3",
         "swiper": "^11.2.8"

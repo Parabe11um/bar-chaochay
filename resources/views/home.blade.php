@@ -8,7 +8,9 @@
                     Андеграунд чай`на бар чай в ритме города
                 </h1>
                 <div class="flex flex-row justify-between">
-                    <div class="text-left text-white font-light">
+                    <div
+                        class="text-left text-white font-medium hidden md:block opacity-0 translate-x-[-40px] transition-all duration-1000 delay-200"
+                        x-data x-init="$el.classList.remove('opacity-0', 'translate-x-[-40px]')">
                         <p>✔️ Эксклюзивный китайский чай</p>
                         <p>✔️ Локация на Красном Октябре</p>
                         <p>✔️ Интересные соседи</p>
@@ -17,7 +19,9 @@
                         <p>✔️ Дружелюбное пространство</p>
                         <p>✔️ Знакомство с чаем для новичков</p>
                     </div>
-                    <div class="main-top-cta">
+                    <div
+                        class="main-top-cta opacity-0 justify-center translate-y-6 transition-all duration-1000 delay-500"
+                        x-data x-init="$el.classList.remove('opacity-0', 'translate-y-6')">
                         <a href="#contact"
                            class="btn btn-yellow scroll  !text-white !bg-[#28a745] border-[#28a745] hover:text-white hover:bg-[#28a745] hover:!border-[#28a745]   active:text-white active:bg-[#28a745] active:border-[#28a745] disabled:text-white disabled:bg-[#28a745] disabled:border-[#28a745] !rounded-[50rem] !mt-2 hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]">Хочу
                             приехать</a>

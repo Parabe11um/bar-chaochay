@@ -19,11 +19,15 @@
 
 
 .main-top-bg{
-    background-image: url("../../public/images/3.jpg");
+    background-image: url("../../public/images/mbg.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .main-top-cta{
     align-content: center;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #28a745!important;
 }

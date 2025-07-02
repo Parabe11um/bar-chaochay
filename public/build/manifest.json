@@ -1,15 +1,15 @@
 {
-  "public/images/3.jpg": {
-    "file": "assets/3-C-YJe_xP.jpg",
-    "src": "public/images/3.jpg"
+  "public/images/mbg.png": {
+    "file": "assets/mbg-BfgpbjJ_.png",
+    "src": "public/images/mbg.png"
   },
   "resources/css/app.css": {
-    "file": "assets/app-wiqpxqUO.css",
+    "file": "assets/app-CfUXDTHM.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-BMIGiYcc.js",
+    "file": "assets/app-Dl5w109l.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,

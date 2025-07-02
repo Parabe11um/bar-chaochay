@@ -6,7 +6,7 @@
                     <a href="{{ route('home') }}">
                         <x-application-logo/>
                     </a>
-                    <p class="lead text-[0.9rem] font-medium !leading-[1.65] !mb-0">Чаочай-бар. Приходите к нам</p>
+                    <p class="lead text-[0.9rem] font-medium !leading-[1.65] !mb-0">Ждём вас каждый день, без выходных, с 14.00 до 22.00.</p>
                 </div>
                 <!-- /.widget -->
             </div>
@@ -49,11 +49,10 @@
         <div class="xl:!flex lg:!flex md:!flex items-center justify-between">
             <p class="!mb-2 xl:!mb-0 lg:!mb-0">© 2025 Чаочай.</p>
             <nav class="nav social social-muted  !mb-0  xl:!text-right lg:!text-right md:!text-right">
-                <a class="m-[0_0_0_.7rem] max-md:m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]" href="#"><i class="uil uil-twitter before:content-['\ed59'] text-[1rem] !text-[#5daed5]"></i></a>
-                <a class="m-[0_0_0_.7rem] max-md:m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]" href="#"><i class="uil uil-facebook-f before:content-['\eae2'] text-[1rem] !text-[#4470cf]"></i></a>
-                <a class="m-[0_0_0_.7rem] max-md:m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]" href="#"><i class="uil uil-dribbble before:content-['\eaa2'] text-[1rem] !text-[#e94d88]"></i></a>
-                <a class="m-[0_0_0_.7rem] max-md:m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]" href="#"><i class="uil uil-instagram before:content-['\eb9c'] text-[1rem] !text-[#d53581]"></i></a>
-                <a class="m-[0_0_0_.7rem] max-md:m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]" href="#"><i class="uil uil-youtube before:content-['\edb5'] text-[1rem] !text-[#c8312b]"></i></a>
+                <a target="_blank" class="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
+                   href="https://t.me/barchaochay"><img class="h-[20px] w-[20px]" src="{{ asset('images/telegram-brands-solid.svg') }}" alt=""></a>
+                <a target="_blank" class="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
+                   href="https://wa.me/79258799942"><img class="h-[20px] w-[20px]" src="{{ asset('images/whatsapp-brands.svg') }}" alt=""></a>
             </nav>
             <!-- /.social -->
         </div>

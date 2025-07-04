@@ -35,6 +35,19 @@
         @include('layouts.partials.about')
         @include('layouts.partials.slider')
         @include('layouts.partials.poster')
+
+        <!-- /section -->
+        <div
+            class="wrapper image-wrapper bg-image bg-overlay !text-white !bg-fixed bg-no-repeat bg-[center_center] bg-cover relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]"
+            data-image-src="{{ asset('images/7.jpg') }}">
+            <div class="container py-[6rem] xl:!py-[9rem] lg:!py-[9rem] md:!py-[9rem] !text-center">
+                <h2 class="xl:!text-[2.5rem] !text-[calc(1.375rem_+_1.5vw)] !leading-[1.15] font-semibold !text-white  !mb-0">
+                    Прекрасная атмосфера и место,<br class="hidden xl:block lg:block md:block">где можно выпить чай</h2>
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.wrapper -->
+
         @include('layouts.partials.tea-items')
         {{--        @include('layouts.partials.our-team')--}}
         {{--        @include('layouts.partials.services')--}}

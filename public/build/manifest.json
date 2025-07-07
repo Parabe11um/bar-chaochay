@@ -1,10 +1,10 @@
 {
-  "public/images/mbg.png": {
-    "file": "assets/mbg-BfgpbjJ_.png",
-    "src": "public/images/mbg.png"
+  "public/images/main-bg.png": {
+    "file": "assets/main-bg-DEYKTtPR.png",
+    "src": "public/images/main-bg.png"
   },
   "resources/css/app.css": {
-    "file": "assets/app-DOJfutZ3.css",
+    "file": "assets/app-kgTOemHu.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },

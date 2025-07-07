@@ -17,162 +17,36 @@
                     class="swiper overflow-visible pb-2 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
                     <div class="swiper-wrapper" id="swiper-wrapper-9f6ccb88dd6d1a5f" aria-live="off"
                          style="cursor: grab; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
-                        <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 4"
-                             style="width: 410px; margin-right: 30px;">
-                            <article class="h-full">
-                                <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between min-h-[500px]">
-                                    <figure class="card-img-top overlay overlay-1 group"><img class="h-[250px] object-cover"
-                                                src="{{ asset('images/a1.jpg') }}" srcset="{{ asset('images/a1.jpg') }}"
-                                                alt="image"><span class="bg"></span>
-                                        <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-left px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
+                        @foreach($events as $event)
+                            <div class="swiper-slide">
+                                <article class="h-full">
+                                    <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between min-h-[500px]">
+                                        <figure class="relative group overflow-hidden">
+                                            <img class="w-full h-[250px] object-cover" src="{{ Storage::url($event->image) }}" alt="{{ $event->title }}">
 
-                                            <p>💮 Стоимость: 3800 р.</p>
-                                            <p>❗ Бронирование через @NikTabu Тамару вотсап +7 917 590-61-31</p>
-                                            <p>💮 В стоимость мастер-классов входят все материалы и чайная
-                                                церемония-знакомство.</p>
-                                            <p>📍 Адрес: Берсеневский пер., 5, стр.2, ориентир - Livestars family.</p>
-
-                                        </figcaption>
-                                    </figure>
-                                    <div class="card-body p-6 events-text flex flex-col flex-1 justify-between grow">
-                                        <div class="post-header">
-                                            <!-- /.post-category -->
-                                            <h2 class="post-title h3 !mt-1 !mb-3 !text-[1.15rem] !font-semibold !tracking-[normal]">
-                                                Живопись Се-И</h2>
-                                        </div>
-                                        <!-- /.post-header -->
-                                        <div class="post-footer mt-auto">
-                                            <ul class="!text-[0.75rem] !text-[#aab0bc] m-0 p-0 list-none flex  !mb-0">
-                                                <li class="post-date inline-block"><i
-                                                        class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i><span>28 Июня 2025</span>
-                                                </li>
-                                            </ul>
-                                            <!-- /.post-meta -->
-                                        </div>
-                                        <!-- /.post-footer -->
-                                    </div>
-                                    <!--/.card-body -->
-                                </div>
-                                <!-- /.card -->
-                            </article>
-                            <!-- /article -->
-                        </div>
-                        <!--/.swiper-slide -->
-                        <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 4"
-                             style="width: 410px; margin-right: 30px;">
-                            <article class="h-full">
-                                <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between min-h-[500px]">
-                                    <figure class="card-img-top overlay overlay-1 group"><img class="w-full h-[250px] object-cover"
-                                                src="{{ asset('images/a2.jpg') }}" srcset="{{ asset('images/a2.jpg') }}"
-                                                alt="image"><span class="bg"></span>
-                                            <figcaption
-                                                class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-left px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-
-                                                <p>💮 Стоимость участия: 700 руб.</p>
-                                                <p>✅ Бронирование мест по телефону (телегамм, вотсап) ☎️ 8-925-87-999-42
-                                                    (мы на связи с 14 до 22)</p>
+                                            <figcaption class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10 before:absolute before:inset-0 before:bg-black/60 before:content-[''] before:z-0">
+                                                <div class="text-white text-sm max-w-md px-4 text-left leading-snug space-y-2 relative z-10">
+                                                    {!! $event->description !!}
+                                                </div>
                                             </figcaption>
-                                    </figure>
-                                    <div class="card-body p-6 events-text flex flex-col flex-1 justify-between grow">
-                                        <div class="post-header">
-                                            <!-- /.post-category -->
-                                            <h2 class="post-title h3 !mt-1 !mb-3 !text-[1.15rem] !font-semibold !tracking-[normal]">
-                                                Чайный коллаж</h2>
+                                        </figure>
+                                        <div class="card-body p-6 events-text flex flex-col justify-between grow">
+                                            <div class="post-header">
+                                                <h2 class="post-title ...">{{ $event->title }}</h2>
+                                            </div>
+                                            <div class="post-footer mt-auto">
+                                                <ul class="!text-[0.75rem] !text-[#aab0bc] m-0 p-0 list-none flex  !mb-0">
+                                                    <li class="post-date inline-block">
+                                                        <i class="uil uil-calendar-alt pr-[0.2rem] ..."></i>
+                                                        <span>{{ \Carbon\Carbon::parse($event->event_date)->translatedFormat('d F Y') }}</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <!-- /.post-header -->
-                                        <div class="post-footer mt-auto">
-                                            <ul class="!text-[0.75rem] !text-[#aab0bc] m-0 p-0 list-none flex  !mb-0">
-                                                <li class="post-date inline-block"><i
-                                                        class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i><span>25 июня 2025</span>
-                                                </li>
-                                            </ul>
-                                            <!-- /.post-meta -->
-                                        </div>
-                                        <!-- /.post-footer -->
                                     </div>
-                                    <!--/.card-body -->
-                                </div>
-                                <!-- /.card -->
-                            </article>
-                            <!-- /article -->
-                        </div>
-                        <!--/.swiper-slide -->
-                        <div class="swiper-slide" role="group" aria-label="3 / 4"
-                             style="width: 410px; margin-right: 30px;">
-                            <article class="h-full">
-                                <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between min-h-[500px]">
-                                    <figure class="card-img-top overlay overlay-1 group"><img class="w-full h-[250px] object-cover"
-                                                src="{{ asset('images/a3.jpg') }}" srcset="{{ asset('images/a5.jpg') }}"
-                                                alt="image"><span class="bg"></span>
-                                        <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-left px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                                            <p>💮 Стоимость участия: 2600 руб.</p>
-                                            <p>✅ Бронирование мест по предоплате: телефон (телегамм, вотсап) ☎️
-                                                8-925-87-999-42 (мы на связи с 14 до 22)</p>
-                                        </figcaption>
-
-                                    </figure>
-                                    <div class="card-body p-6 events-text flex flex-col flex-1 justify-between grow">
-                                        <div class="post-header">
-                                            <!-- /.post-category -->
-                                            <h2 class="post-title h3 !mt-1 !mb-3 !text-[1.15rem] !font-semibold !tracking-[normal]">
-                                                Мастер-класс по лепке пиалы из глины</h2>
-                                        </div>
-                                        <!-- /.post-header -->
-                                        <div class="post-footer mt-auto">
-                                            <ul class="!text-[0.75rem] !text-[#aab0bc] m-0 p-0 list-none flex  !mb-0">
-                                                <li class="post-date inline-block"><i
-                                                        class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i><span>22 июня 2025</span>
-                                                </li>
-                                            </ul>
-                                            <!-- /.post-meta -->
-                                        </div>
-                                        <!-- /.post-footer -->
-                                    </div>
-                                    <!--/.card-body -->
-                                </div>
-                                <!-- /.card -->
-                            </article>
-                            <!-- /article -->
-                        </div>
-                        <!--/.swiper-slide -->
-                        <div class="swiper-slide" role="group" aria-label="4 / 4"
-                             style="width: 410px; margin-right: 30px;">
-                            <article class="h-full">
-                                <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between min-h-[500px]">           <figure class="card-img-top overlay overlay-1 group"><img class="w-full h-[250px] object-cover"
-                                                src="{{ asset('images/a4.jpg') }}" srcset="{{ asset('images/a4.jpg') }}"
-                                                alt="image"><span class="bg"></span>
-                                        <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-left px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-
-                                            <p>15 июня в 15.00 - Чайная церемония с Алексеем</p>
-                                            <p>💮 Стоимость 3000р с гостя</p>
-                                            <p>✅ Бронирование мест по предоплате: телефон (телегамм, вотсап) ☎️
-                                                8-925-87-999-42 (мы на связи с 14 до 22)</p>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="card-body p-6 events-text flex flex-col flex-1 justify-between grow">
-                                        <div class="post-header">
-                                            <!-- /.post-category -->
-                                            <h2 class="post-title h3 !mt-1 !mb-3 !text-[1.15rem] !font-semibold !tracking-[normal]">
-                                                Чайная церемония с Алексеем
-                                            </h2>
-                                        </div>
-                                        <!-- /.post-header -->
-                                        <div class="post-footer mt-auto">
-                                            <ul class="!text-[0.75rem] !text-[#aab0bc] m-0 p-0 list-none flex  !mb-0">
-                                                <li class="post-date inline-block"><i
-                                                        class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i><span>15 июня 2025</span>
-                                                </li>
-                                            </ul>
-                                            <!-- /.post-meta -->
-                                        </div>
-                                        <!-- /.post-footer -->
-                                    </div>
-                                    <!--/.card-body -->
-                                </div>
-                                <!-- /.card -->
-                            </article>
-                            <!-- /article -->
-                        </div>
+                                </article>
+                            </div>
+                        @endforeach
                     </div>
                     <!--/.swiper-wrapper -->
                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>

@@ -19,7 +19,7 @@ class ContactController extends Controller
 
         ContactMessage::create($data);
 
-        Notification::route('mail', 'tech-support@chaochay.ru')
+        Notification::route('mail', 'bar@chaochay.ru')
             ->notify(new ContactFormSubmitted(
                 $data['name'], $data['email'], $data['message']
             ));

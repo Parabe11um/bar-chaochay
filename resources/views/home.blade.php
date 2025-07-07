@@ -4,7 +4,7 @@
         <div class="w-full text-center main-top-bg py-32 bg-gray-100 overlay-3">
 
             <div class="container">
-                <h1 class="text-2xl md:text-3xl p-20 font-light text-center lg:text-5xl text-white">
+                <h1 class="text-3xl md:text-3xl p-20 font-medium text-center lg:text-5xl text-white">
                     Андеграунд чай`на бар чай в ритме города
                 </h1>
                 <div class="flex flex-row justify-between">
@@ -34,8 +34,7 @@
     <div class="grow shrink-0">
         @include('layouts.partials.about')
         @include('layouts.partials.slider')
-        @include('layouts.partials.poster')
-
+        @include('layouts.partials.poster', ['events' => $events])
         <!-- /section -->
         <div
             class="wrapper image-wrapper bg-image bg-overlay !text-white !bg-fixed bg-no-repeat bg-[center_center] bg-cover relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]"

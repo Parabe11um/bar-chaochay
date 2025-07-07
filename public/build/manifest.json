@@ -4,9 +4,49 @@
     "src": "public/images/main-bg.png"
   },
   "resources/css/app.css": {
-    "file": "assets/app-kgTOemHu.css",
+    "file": "assets/app-16x9CnTj.css",
     "src": "resources/css/app.css",
     "isEntry": true
+  },
+  "resources/fonts/Roboto/static/Roboto-Black.ttf": {
+    "file": "assets/Roboto-Black-BTYGK7k3.ttf",
+    "src": "resources/fonts/Roboto/static/Roboto-Black.ttf"
+  },
+  "resources/fonts/Roboto/static/Roboto-BlackItalic.ttf": {
+    "file": "assets/Roboto-BlackItalic-Cbx6xfEy.ttf",
+    "src": "resources/fonts/Roboto/static/Roboto-BlackItalic.ttf"
+  },
+  "resources/fonts/Roboto/static/Roboto-Bold.ttf": {
+    "file": "assets/Roboto-Bold-_ZJd4Sbe.ttf",
+    "src": "resources/fonts/Roboto/static/Roboto-Bold.ttf"
+  },
+  "resources/fonts/Roboto/static/Roboto-BoldItalic.ttf": {
+    "file": "assets/Roboto-BoldItalic-fQGyIEb-.ttf",
+    "src": "resources/fonts/Roboto/static/Roboto-BoldItalic.ttf"
+  },
+  "resources/fonts/Roboto/static/Roboto-Italic.ttf": {
+    "file": "assets/Roboto-Italic-B1M5SgEt.ttf",
+    "src": "resources/fonts/Roboto/static/Roboto-Italic.ttf"
+  },
+  "resources/fonts/Roboto/static/Roboto-Light.ttf": {
+    "file": "assets/Roboto-Light-r0KW6U_F.ttf",
+    "src": "resources/fonts/Roboto/static/Roboto-Light.ttf"
+  },
+  "resources/fonts/Roboto/static/Roboto-LightItalic.ttf": {
+    "file": "assets/Roboto-LightItalic-DfY0f4zU.ttf",
+    "src": "resources/fonts/Roboto/static/Roboto-LightItalic.ttf"
+  },
+  "resources/fonts/Roboto/static/Roboto-Medium.ttf": {
+    "file": "assets/Roboto-Medium-CwcsZ-zd.ttf",
+    "src": "resources/fonts/Roboto/static/Roboto-Medium.ttf"
+  },
+  "resources/fonts/Roboto/static/Roboto-MediumItalic.ttf": {
+    "file": "assets/Roboto-MediumItalic-_ZOwZW4s.ttf",
+    "src": "resources/fonts/Roboto/static/Roboto-MediumItalic.ttf"
+  },
+  "resources/fonts/Roboto/static/Roboto-Regular.ttf": {
+    "file": "assets/Roboto-Regular-CN_pkOMA.ttf",
+    "src": "resources/fonts/Roboto/static/Roboto-Regular.ttf"
   },
   "resources/js/app.js": {
     "file": "assets/app-Dl5w109l.js",

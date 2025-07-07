@@ -1,113 +1,68 @@
-<section id="tea-items">
-    <div class="wrapper  bg-[rgba(246,247,249,1)] ">
-        <div class="container py-20 xl:!py-[7rem] lg:!py-[7rem] md:!py-[7rem] !text-center">
+<section id="tea-slider" class="wrapper bg-[rgba(246,247,249,1)]">
+    <div class="overflow-hidden">
+        <div class="container py-[4.5rem] xl:!py-24 lg:!py-24 md:!py-24">
             <div class="flex flex-wrap mx-[-15px]">
-                <div class="lg:w-10/12 xl:w-8/12 xxl:w-7/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto !mb-8">
-                    <h2 class="xl:!text-[1.7rem] !text-[calc(1.295rem_+_0.54vw)] !leading-[1.25] !font-semibold !mb-3">Наш чай</h2>
-                    <p class="lead !text-[1.1rem] !leading-[1.55] font-medium">Мы предлагаем весь спектр китайского чая.</p>
-                    <p class="text-left">Мы начинали в 2010 году, со скромного магазинчика на Новом Арбате, и постепенно “переселялись” в Китай. Илья Гуппров, директор магазина, исследовал Поднебесную, учил язык.  Сейчас Илья большую часть года  живет в Китае, лично отбирает поставщиков, дегустирует каждый сорт чая, контролирует отправку чая в Россию. За счет прямых закупок мы предлагаем премиальный чай по средней цене. В наших магазине и баре представлены лучшие сорта чая из Китая: от невесомых белых чаев до самых крепких пуэров.
+                <div class="xl:w-7/12 xxl:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto !text-center">
+                    <i class="icn-flower !text-[#7cb798] xl:!text-[1.5rem] !text-[calc(1.275rem_+_0.3vw)] opacity-25 before:content-['\e907']"></i>
+                    <h2 class="xl:!text-[1.7rem] !text-[calc(1.295rem_+_0.54vw)] !leading-[1.25] font-semibold !tracking-[normal] !text-center !mt-2 !mb-10">
+                        Наш чай</h2>
+
+                    <p>
+                        Мы предлагаем премиальный китайский чай напрямую от проверенных поставщиков. В нашей коллекции — белые, зелёные, красные, улун и пуэры.
                     </p>
                 </div>
-                <!-- /column -->
             </div>
-            <!-- /.row -->
-            <div class="itemgrid grid-view projects-masonry">
-{{--                <div class="isotope-filter !relative z-[5] filter !mb-10">--}}
-{{--                    <ul class=" inline m-0 p-0 list-none">--}}
-{{--                        <li class="inline"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745] active" data-filter="*">Все</a></li>--}}
-{{--                        <li class="inline before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:ml-2 before:mr-[0.8rem] before:my-0 before:rounded-[100%] before:bg-[rgba(30,34,40,.2)] before:align-[.15rem]"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745]" data-filter=".red">Красный чай</a></li>--}}
-{{--                        <li class="inline before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:ml-2 before:mr-[0.8rem] before:my-0 before:rounded-[100%] before:bg-[rgba(30,34,40,.2)] before:align-[.15rem]"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745]" data-filter=".drinks">Белый чай</a></li>--}}
-{{--                        <li class="inline before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:ml-2 before:mr-[0.8rem] before:my-0 before:rounded-[100%] before:bg-[rgba(30,34,40,.2)] before:align-[.15rem]"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745]" data-filter=".events">Пуэр</a></li>--}}
-{{--                        <li class="inline before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:ml-2 before:mr-[0.8rem] before:my-0 before:rounded-[100%] before:bg-[rgba(30,34,40,.2)] before:align-[.15rem]"><a class="filter-item uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !text-[#aab0bc] cursor-pointer hover:!text-[#28a745]" data-filter=".pastries">Зеленый чай</a></li>--}}
-{{--                    </ul>--}}
-{{--                </div>--}}
-                <div class="flex flex-wrap mx-[-15px] md:mx-[-15px] !mt-[-30px] isotope">
-                    <div class="project item xl:w-4/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] !mt-[30px] max-w-full drinks events">
-                        <figure class="overlay overlay-1 rounded group relative"><a class="relative block z-[3] cursor-pointer inset-0" href="{{ asset('images/white.png') }}" data-glightbox="" data-gallery="shots-group"> <img src="{{ asset('images/white.png') }}" alt="image"></a>
-                            <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                                <h5 class="from-top !mb-0 absolute w-full translate-y-[-80%] px-4 py-3 left-0 top-2/4 group-hover:-translate-y-2/4">Белый чай</h5>
-                            </figcaption>
-                        </figure>
+
+            <div class="swiper-container nav-bottom nav-color !mb-[4.5rem] relative z-10 swiper-container-teas"
+                 data-margin="30" data-dots="false" data-nav="false" data-items-lg="3" data-items-md="2"
+                 data-items-xs="1">
+                <div class="swiper overflow-visible pb-2">
+                    <div class="swiper-wrapper">
+                        @foreach($teas as $tea)
+                            <div class="swiper-slide">
+                                <article class="h-full">
+                                    <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between min-h-[400px]">
+                                        <figure class="relative group overflow-hidden rounded-[0.4rem]">
+                                            <img class="w-full h-[250px] object-cover rounded-[0.4rem]" src="{{ Storage::url($tea->image_path) }}" alt="{{ $tea->title }}">
+
+                                            <figcaption class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10 before:absolute before:inset-0 before:bg-black/60 before:content-[''] before:z-0">
+                                                <div class="text-white text-sm max-w-md px-4 text-left leading-snug space-y-2 relative z-10">
+                                                    <p>{{ $tea->title }}</p>
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </article>
+                            </div>
+                        @endforeach
                     </div>
-                    <!-- /.project -->
-                    <div class="project item xl:w-4/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] !mt-[30px] max-w-full events">
-                        <figure class="overlay overlay-1 rounded group relative"><a class="relative block z-[3] cursor-pointer inset-0" href="{{ asset('images/jasmine.png') }}" data-glightbox="" data-gallery="shots-group"> <img src="{{ asset('images/jasmine.png') }}" alt="image"></a>
-                            <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                                <h5 class="from-top !mb-0 absolute w-full translate-y-[-80%] px-4 py-3 left-0 top-2/4 group-hover:-translate-y-2/4">Жасмин</h5>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- /.project -->
-                    <div class="project item xl:w-4/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] !mt-[30px] max-w-full drinks red">
-                        <figure class="overlay overlay-1 rounded group relative"><a class="relative block z-[3] cursor-pointer inset-0" href="{{ asset('images/puer.png') }}" data-glightbox="" data-gallery="shots-group"> <img src="{{ asset('images/puer.png') }}" alt="image"></a>
-                            <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                                <h5 class="from-top !mb-0 absolute w-full translate-y-[-80%] px-4 py-3 left-0 top-2/4 group-hover:-translate-y-2/4">Пуэр</h5>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- /.project -->
-                    <div class="project item xl:w-4/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] !mt-[30px] max-w-full events">
-                        <figure class="overlay overlay-1 rounded group relative"><a class="relative block z-[3] cursor-pointer inset-0" href="{{ asset('images/red.png') }}" data-glightbox="" data-gallery="shots-group"> <img src="{{ asset('images/red.png') }}" alt="image"></a>
-                            <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                                <h5 class="from-top !mb-0 absolute w-full translate-y-[-80%] px-4 py-3 left-0 top-2/4 group-hover:-translate-y-2/4">Красный чай</h5>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- /.project -->
-                    <div class="project item xl:w-4/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] !mt-[30px] max-w-full pastries events">
-                        <figure class="overlay overlay-1 rounded group relative"><a class="relative block z-[3] cursor-pointer inset-0" href="{{ asset('images/ulun.png') }}" data-glightbox="" data-gallery="shots-group"> <img src="{{ asset('images/ulun.png') }}" alt="image"></a>
-                            <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                                <h5 class="from-top !mb-0 absolute w-full translate-y-[-80%] px-4 py-3 left-0 top-2/4 group-hover:-translate-y-2/4">Улун</h5>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- /.project -->
-                    <div class="project item xl:w-4/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] !mt-[30px] max-w-full red">
-                        <figure class="overlay overlay-1 rounded group relative"><a class="relative block z-[3] cursor-pointer inset-0" href="{{ asset('images/unique_ulun.png') }}" data-glightbox="" data-gallery="shots-group"> <img src="{{ asset('images/unique_ulun.png') }}" alt="image"></a>
-                            <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                                <h5 class="from-top !mb-0 absolute w-full translate-y-[-80%] px-4 py-3 left-0 top-2/4 group-hover:-translate-y-2/4">Редкие улуны</h5>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- /.project -->
-                    <div class="project item xl:w-4/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] !mt-[30px] max-w-full red drinks">
-                        <figure class="overlay overlay-1 rounded group relative"><a class="relative block z-[3] cursor-pointer inset-0" href="{{ asset('images/hey_cha.png') }}" data-glightbox="" data-gallery="shots-group"> <img src="{{ asset('images/hey_cha.png') }}" alt="image"></a>
-                            <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                                <h5 class="from-top !mb-0 absolute w-full translate-y-[-80%] px-4 py-3 left-0 top-2/4 group-hover:-translate-y-2/4">Хей Ча</h5>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- /.project -->
-                    <div class="project item xl:w-4/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] !mt-[30px] max-w-full pastries">
-                        <figure class="overlay overlay-1 rounded group relative"><a class="relative block z-[3] cursor-pointer inset-0" href="{{ asset('images/yellow.png') }}" data-glightbox="" data-gallery="shots-group"> <img src="{{ asset('images/yellow.png') }}" alt="image"></a>
-                            <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                                <h5 class="from-top !mb-0 absolute w-full translate-y-[-80%] px-4 py-3 left-0 top-2/4 group-hover:-translate-y-2/4">Желтый чай</h5>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- /.project -->
-                    <div class="project item xl:w-4/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] !mt-[30px] max-w-full events">
-                        <figure class="overlay overlay-1 rounded group relative"><a class="relative block z-[3] cursor-pointer inset-0" href="{{ asset('images/dishes.png') }}" data-glightbox="" data-gallery="shots-group"> <img src="{{ asset('images/dishes.png') }}" alt="image"></a>
-                            <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                                <h5 class="from-top !mb-0 absolute w-full translate-y-[-80%] px-4 py-3 left-0 top-2/4 group-hover:-translate-y-2/4">Посуда</h5>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- /.project -->
-                    <div class="project item xl:w-4/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] !mt-[30px] max-w-full red">
-                        <figure class="overlay overlay-1 rounded group relative"><a class="relative block z-[3] cursor-pointer inset-0" href="{{ asset('images/green.png') }}" data-glightbox="" data-gallery="shots-group"> <img src="{{ asset('images/green.png') }}" alt="image"></a>
-                            <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                                <h5 class="from-top !mb-0 absolute w-full translate-y-[-80%] px-4 py-3 left-0 top-2/4 group-hover:-translate-y-2/4">Зеленый чай</h5>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- /.project -->
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.grid -->
         </div>
-        <!-- /.container -->
     </div>
-    <!-- /.wrapper -->
 </section>
+
+@push('scripts')
+    <script>
+        new Swiper('.swiper-container-teas .swiper', {
+            slidesPerView: 1.2,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 4000,
+            },
+            navigation: {
+                nextEl: '.swiper-container-teas .swiper-button-next',
+                prevEl: '.swiper-container-teas .swiper-button-prev',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2
+                },
+                1024: {
+                    slidesPerView: 3
+                }
+            }
+        });
+    </script>
+@endpush

@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Event; // <--- обязательно
+use App\Models\Event;
+use App\Models\Tea;
 
 class HomeController extends Controller
 {
@@ -13,6 +14,10 @@ class HomeController extends Controller
             ->orderBy('event_date', 'desc')
             ->get();
 
-        return view('home', compact('events'));
+        $teas = Tea::where('is_active', true)
+            ->orderBy('created_at', 'desc')
+            ->get();
+
+        return view('home', compact('events', 'teas'));
     }
 }

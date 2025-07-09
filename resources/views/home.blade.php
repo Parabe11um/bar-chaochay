@@ -5,12 +5,12 @@
 
             <div class="container">
                 <div class="flex flex-col items-center text-white text-center px-6 py-20 sm:min-h-[60vh] md:min-h-[50vh] lg:min-h-[45vh] xl:min-h-[40vh]">
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 opacity-0 transition-opacity duration-1000 delay-200"
+                    <h1 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 opacity-0 transition-opacity duration-1000 delay-200"
                         x-data x-init="$el.classList.remove('opacity-0')">
                         Андеграунд <br class="hidden sm:inline"> чай`на бар чай
                     </h1>
 
-                    <p class="text-xl md:text-2xl lg:text-3xl font-light mt-2 opacity-0 text-white"
+                    <p class="text-xl text-white md:text-2xl lg:text-3xl font-light mt-2 opacity-0 text-white"
                        x-data="typeEffect('в ритме города', 60)"
                        x-init="startTyping()"
                        x-text="output">

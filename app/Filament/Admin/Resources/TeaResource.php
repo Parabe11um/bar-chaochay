@@ -25,6 +25,11 @@ class TeaResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
+    public static function getNavigationGroup(): ?string
+    {
+        return 'Слайдеры';
+    }
+
     public static function form(Form $form): Form
     {
         return $form
@@ -74,5 +79,20 @@ class TeaResource extends Resource
             'create' => Pages\CreateTea::route('/create'),
             'edit' => Pages\EditTea::route('/{record}/edit'),
         ];
+    }
+
+    public static function getNavigationLabel(): string
+    {
+        return 'Наш чай';
+    }
+
+    public static function getModelLabel(): string
+    {
+        return 'Чай';
+    }
+
+    public static function getPluralModelLabel(): string
+    {
+        return 'Чаи';
     }
 }

@@ -24,6 +24,11 @@ class AboutSliderResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
+    public static function getNavigationGroup(): ?string
+    {
+        return 'Слайдеры';
+    }
+
     public static function form(Form $form): Form
     {
         return $form->schema([
@@ -81,5 +86,20 @@ class AboutSliderResource extends Resource
             'create' => Pages\CreateAboutSlider::route('/create'),
             'edit' => Pages\EditAboutSlider::route('/{record}/edit'),
         ];
+    }
+
+    public static function getNavigationLabel(): string
+    {
+        return 'О нас';
+    }
+
+    public static function getModelLabel(): string
+    {
+        return 'Фото';
+    }
+
+    public static function getPluralModelLabel(): string
+    {
+        return 'Фото';
     }
 }

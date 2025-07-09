@@ -23,7 +23,7 @@
                 <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745] active" href="#about">О нас</a>
                 </li>
                 <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#poster">Афиша</a></li>
-                <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#tea-items">Наш чай</a></li>
+                <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#tea-slider">Наш чай</a></li>
                 <li class="nav-item"><a class="nav-link hover:!text-[#28a745]" href="{{ asset('menu.pdf') }}" target="_blank">Наше меню</a></li>
                 <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#contact">Контакты</a></li>
                 <li class="nav-item"><a class="nav-link scroll hover:!text-[#28a745]" href="#yandex-map">Как добраться</a></li>

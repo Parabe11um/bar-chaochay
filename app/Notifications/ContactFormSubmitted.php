@@ -27,9 +27,11 @@ class ContactFormSubmitted extends Notification
     {
         return (new MailMessage)
             ->subject('Новое сообщение с сайта')
+            ->greeting('Добрый день!')
             ->line("Имя: {$this->name}")
             ->line("Email: {$this->email}")
             ->line("Сообщение:")
-            ->line($this->messageText);
+            ->line($this->messageText)
+            ->salutation('Чайная "Чаочай"');
     }
 }

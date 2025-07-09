@@ -4,7 +4,7 @@
         <div class="w-full text-center main-top-bg py-32 bg-gray-100 overlay-3">
 
             <div class="container">
-                <div class="flex flex-col items-center justify-center h-screen text-white text-center px-6 bg-black/40 backdrop-blur-sm">
+                <div class="flex flex-col items-center justify-center h-screen text-white text-center px-6">
                     <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 opacity-0 transition-opacity duration-1000 delay-200"
                         x-data x-init="$el.classList.remove('opacity-0')">
                         Андеграунд чай`на бар чай

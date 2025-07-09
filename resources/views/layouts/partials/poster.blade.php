@@ -35,7 +35,11 @@
                                         </figure>
 
                                         <div class="card-body flex flex-col p-6 grow">
-                                            <h2 class="text-base font-semibold leading-snug mb-4">{{ $event->title }}</h2>
+                                            <div class="post-header min-h-[3.5rem]">
+                                                <h2 class="text-base font-semibold leading-snug">
+                                                    {{ $event->title }}
+                                                </h2>
+                                            </div>
                                             <div class="mt-auto">
                                                 <ul class="text-xs text-[#aab0bc] m-0 p-0 list-none">
                                                     <li class="inline-block">

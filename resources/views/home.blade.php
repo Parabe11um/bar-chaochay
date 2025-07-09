@@ -76,25 +76,3 @@
         </svg>
     </div>
 </x-app-layout>
-@push('scripts')
-    <script>
-        document.addEventListener('alpine:init', () => {
-            Alpine.data('typeEffect', (text, speed = 50) => ({
-                full: text,
-                output: '',
-                index: 0,
-                startTyping() {
-                    this.output = '';
-                    this.index = 0;
-                    const step = () => {
-                        if (this.index < this.full.length) {
-                            this.output += this.full[this.index++];
-                            setTimeout(step, speed);
-                        }
-                    };
-                    step();
-                }
-            }));
-        });
-    </script>
-@endpush

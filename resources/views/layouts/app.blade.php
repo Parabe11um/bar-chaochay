@@ -45,6 +45,26 @@
 <script src="{{ asset('js/plugins.js') }}"></script>
 <script src="{{ asset('js/theme.js') }}"></script>
 @stack('scripts')
-</body>
 
+<script>
+    document.addEventListener('alpine:init', () => {
+        Alpine.data('typeEffect', (text, speed = 50) => ({
+            full: text,
+            output: '',
+            index: 0,
+            startTyping() {
+                this.output = '';
+                this.index = 0;
+                const step = () => {
+                    if (this.index < this.full.length) {
+                        this.output += this.full[this.index++];
+                        setTimeout(step, speed);
+                    }
+                };
+                step();
+            }
+        }));
+    });
+</script>
+</body>
 </html>

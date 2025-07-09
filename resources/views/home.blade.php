@@ -4,11 +4,17 @@
         <div class="w-full text-center main-top-bg py-32 bg-gray-100 overlay-3">
 
             <div class="container">
-                <div class="bg-black/40 rounded-xl inline-block px-6 py-4 backdrop-blur-sm">
-                    <h1 class="text-white text-center">
-                        <span class="block text-4xl font-bold">Андеграунд чай`на бар чай</span>
-                        <span class="block text-xl mt-2 opacity-80">в ритме города</span>
+                <div class="flex flex-col items-center justify-center h-screen text-white text-center px-6 bg-black/40 backdrop-blur-sm">
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 opacity-0 transition-opacity duration-1000 delay-200"
+                        x-data x-init="$el.classList.remove('opacity-0')">
+                        Андеграунд чай`на бар чай
                     </h1>
+
+                    <p class="text-xl md:text-2xl lg:text-3xl opacity-0 mt-2"
+                       x-data="typeEffect('в ритме города', 60)"
+                       x-init="startTyping()"
+                       x-text="output">
+                    </p>
                 </div>
                 <div class="flex flex-col items-center md:flex-row md:justify-between">
                 <div
@@ -70,3 +76,25 @@
         </svg>
     </div>
 </x-app-layout>
+@push('scripts')
+    <script>
+        document.addEventListener('alpine:init', () => {
+            Alpine.data('typeEffect', (text, speed = 50) => ({
+                full: text,
+                output: '',
+                index: 0,
+                startTyping() {
+                    this.output = '';
+                    this.index = 0;
+                    const step = () => {
+                        if (this.index < this.full.length) {
+                            this.output += this.full[this.index++];
+                            setTimeout(step, speed);
+                        }
+                    };
+                    step();
+                }
+            }));
+        });
+    </script>
+@endpush

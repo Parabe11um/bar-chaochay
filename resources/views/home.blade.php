@@ -7,8 +7,8 @@
                 <h1 class="text-3xl md:text-3xl p-20 font-medium text-center lg:text-5xl text-white">
                     Андеграунд чай`на бар чай в ритме города
                 </h1>
-                <div class="flex flex-row justify-between">
-                    <div
+                <div class="flex flex-col items-center md:flex-row md:justify-between">
+                <div
                         class="text-left text-white font-medium hidden md:block opacity-0 translate-x-[-40px] transition-all duration-1000 delay-200"
                         x-data x-init="$el.classList.remove('opacity-0', 'translate-x-[-40px]')">
                         <p>✔️ Эксклюзивный китайский чай</p>

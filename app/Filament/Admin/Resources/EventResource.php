@@ -25,8 +25,11 @@ class EventResource extends Resource
 {
     protected static ?string $model = Event::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
-
+    protected static ?string $navigationIcon = 'heroicon-o-calendar';
+    public static function getNavigationGroup(): ?string
+    {
+        return 'Слайдеры';
+    }
     public static function form(Form $form): Form
     {
         return $form
@@ -78,5 +81,20 @@ class EventResource extends Resource
             'create' => Pages\CreateEvent::route('/create'),
             'edit' => Pages\EditEvent::route('/{record}/edit'),
         ];
+    }
+
+    public static function getNavigationLabel(): string
+    {
+        return 'Афиша';
+    }
+
+    public static function getModelLabel(): string
+    {
+        return 'Мероприятие';
+    }
+
+    public static function getPluralModelLabel(): string
+    {
+        return 'Мероприятия';
     }
 }

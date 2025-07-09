@@ -36,7 +36,7 @@
 
                                         <div class="card-body flex flex-col p-6 grow">
                                             <div class="post-header min-h-[3.5rem]">
-                                                <h2 class="text-base font-semibold leading-snug">
+                                                <h2 class="text-base font-semibold leading-snug mb-4 line-clamp-2">
                                                     {{ $event->title }}
                                                 </h2>
                                             </div>

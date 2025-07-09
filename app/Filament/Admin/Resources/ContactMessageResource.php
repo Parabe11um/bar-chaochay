@@ -22,6 +22,11 @@ class ContactMessageResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
+    public static function getNavigationGroup(): ?string
+    {
+        return 'Сообщения из формы';
+    }
+
     public static function form(Form $form): Form
     {
         return $form
@@ -67,5 +72,20 @@ class ContactMessageResource extends Resource
             'create' => Pages\CreateContactMessage::route('/create'),
             'edit' => Pages\EditContactMessage::route('/{record}/edit'),
         ];
+    }
+
+    public static function getNavigationLabel(): string
+    {
+        return 'Сообщения';
+    }
+
+    public static function getModelLabel(): string
+    {
+        return 'Сообщение';
+    }
+
+    public static function getPluralModelLabel(): string
+    {
+        return 'Сообщения';
     }
 }

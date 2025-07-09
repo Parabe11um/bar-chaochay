@@ -4,7 +4,7 @@
         <div class="w-full text-center main-top-bg py-32 bg-gray-100 overlay-3">
 
             <div class="container">
-                <div class="flex flex-col items-center text-white text-center px-6 py-20 sm:min-h-[60vh] md:min-h-[50vh] lg:min-h-[45vh] xl:min-h-[40vh]">
+                <div class="flex flex-col items-center text-white text-center px-6 py-20 sm:min-h-[60vh] md:min-h-[50vh] md:h-[60vh] lg:min-h-[45vh] lg:h-[40vh] xl:min-h-[40vh] xl:h-[40vh]">
                     <h1 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 opacity-0 transition-opacity duration-1000 delay-200"
                         x-data x-init="$el.classList.remove('opacity-0')">
                         Андеграунд чай`на бар

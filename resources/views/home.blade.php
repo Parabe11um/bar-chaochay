@@ -10,9 +10,9 @@
                         Андеграунд <br class="hidden sm:inline"> чай`на бар чай
                     </h1>
 
-                    <p class="text-xl text-white md:text-2xl lg:text-3xl font-light mt-2 opacity-0 text-white"
+                    <p class="text-xl text-white md:text-2xl lg:text-3xl font-light mt-2 opacity-0"
                        x-data="typeEffect('в ритме города', 60)"
-                       x-init="startTyping()"
+                       x-init="$nextTick(() => startTyping())"
                        x-text="output">
                     </p>
                 </div>

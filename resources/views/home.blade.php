@@ -4,9 +4,12 @@
         <div class="w-full text-center main-top-bg py-32 bg-gray-100 overlay-3">
 
             <div class="container">
-                <h1 class="text-3xl md:text-3xl p-20 font-medium text-center lg:text-5xl text-white">
-                    Андеграунд чай`на бар чай в ритме города
-                </h1>
+                <div class="bg-black/40 rounded-xl inline-block px-6 py-4 backdrop-blur-sm">
+                    <h1 class="text-white text-center">
+                        <span class="block text-4xl font-bold">Андеграунд чай`на бар чай</span>
+                        <span class="block text-xl mt-2 opacity-80">в ритме города</span>
+                    </h1>
+                </div>
                 <div class="flex flex-col items-center md:flex-row md:justify-between">
                 <div
                         class="text-left text-white font-medium hidden md:block opacity-0 translate-x-[-40px] transition-all duration-1000 delay-200"

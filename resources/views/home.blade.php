@@ -51,6 +51,7 @@
         {{--        @include('layouts.partials.our-team')--}}
         {{--        @include('layouts.partials.services')--}}
         @include('layouts.partials.contact')
+        @include('layouts.partials.map')
 
         <!-- /section -->
     </div>

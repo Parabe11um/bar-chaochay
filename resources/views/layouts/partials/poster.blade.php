@@ -19,25 +19,27 @@
                          style="cursor: grab; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
                         @foreach($events as $event)
                             <div class="swiper-slide">
-                                <article class="h-full">
-                                    <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between min-h-[500px]">
-                                        <figure class="relative group overflow-hidden">
-                                            <img class="w-full h-[250px] object-cover" src="{{ Storage::url($event->image) }}" alt="{{ $event->title }}">
-
+                                <article class="h-full flex flex-col">
+                                    <div class="card flex flex-col h-full">
+                                        <figure class="h-[250px] w-full relative group overflow-hidden">
+                                            <img
+                                                src="{{ Storage::url($event->image) }}"
+                                                alt="{{ $event->title }}"
+                                                class="w-full h-full object-cover"
+                                            >
                                             <figcaption class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10 before:absolute before:inset-0 before:bg-black/60 before:content-[''] before:z-0">
                                                 <div class="text-white text-sm max-w-md px-4 text-left leading-snug space-y-2 relative z-10">
                                                     {!! $event->description !!}
                                                 </div>
                                             </figcaption>
                                         </figure>
-                                        <div class="card-body p-6 events-text flex flex-col justify-between grow">
-                                            <div class="post-header">
-                                                <h2 class="post-title ...">{{ $event->title }}</h2>
-                                            </div>
-                                            <div class="post-footer mt-auto">
-                                                <ul class="!text-[0.75rem] !text-[#aab0bc] m-0 p-0 list-none flex  !mb-0">
-                                                    <li class="post-date inline-block">
-                                                        <i class="uil uil-calendar-alt pr-[0.2rem] ..."></i>
+
+                                        <div class="card-body flex flex-col p-6 grow">
+                                            <h2 class="text-base font-semibold leading-snug mb-4">{{ $event->title }}</h2>
+                                            <div class="mt-auto">
+                                                <ul class="text-xs text-[#aab0bc] m-0 p-0 list-none">
+                                                    <li class="inline-block">
+                                                        <i class="uil uil-calendar-alt pr-1"></i>
                                                         <span>{{ \Carbon\Carbon::parse($event->event_date)->translatedFormat('d F Y') }}</span>
                                                     </li>
                                                 </ul>

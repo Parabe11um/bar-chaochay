@@ -18,9 +18,9 @@
                     <div class="swiper-wrapper" id="swiper-wrapper-9f6ccb88dd6d1a5f" aria-live="off"
                          style="cursor: grab; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
                         @foreach($events as $event)
-                            <div class="swiper-slide h-full">
+                            <div class="swiper-slide">
                                 <article class="h-full">
-                                    <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between h-full">
+                                    <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex flex-col justify-between min-h-[500px]">
                                         <figure class="relative group overflow-hidden">
                                             <img class="w-full h-[250px] object-cover" src="{{ Storage::url($event->image) }}" alt="{{ $event->title }}">
 

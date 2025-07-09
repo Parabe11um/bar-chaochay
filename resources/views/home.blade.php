@@ -7,13 +7,15 @@
                 <div class="flex flex-col items-center text-white text-center px-6 py-20 sm:min-h-[60vh] md:min-h-[50vh] lg:min-h-[45vh] xl:min-h-[40vh]">
                     <h1 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 opacity-0 transition-opacity duration-1000 delay-200"
                         x-data x-init="$el.classList.remove('opacity-0')">
-                        Андеграунд <br class="hidden sm:inline"> "чайна" бар чай
+                        Андеграунд чай`на бар
                     </h1>
 
-                    <p class="text-xl text-white md:text-2xl lg:text-3xl font-light mt-2 opacity-0"
-                       x-data="typeEffect('в ритме города', 60)"
+                    <p x-data="typeEffect('Чай в ритме города', 60)"
                        x-init="$nextTick(() => startTyping())"
-                       x-text="output">
+                       x-text="output"
+                       x-show="output.length > 0"
+                       x-transition.opacity
+                       class="text-xl text-white md:text-2xl lg:text-3xl font-light mt-2 min-h-[1.5rem]">
                     </p>
                 </div>
                 <div class="flex flex-col items-center md:flex-row md:justify-between">

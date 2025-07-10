@@ -50,7 +50,7 @@
         <div
             class="wrapper image-wrapper bg-no-repeat bg-cover bg-center relative z-0 text-white
            before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full
-           before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]"
+           before:left-0 before:top-0"
             style="
         background-image: url('{{ asset('images/image_sep.png') }}');
     "

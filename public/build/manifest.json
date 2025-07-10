@@ -3,8 +3,12 @@
     "file": "assets/main-bg-DEYKTtPR.png",
     "src": "public/images/main-bg.png"
   },
+  "public/images/mobile-screen-1.png": {
+    "file": "assets/mobile-screen-1-D03HmCeI.png",
+    "src": "public/images/mobile-screen-1.png"
+  },
   "resources/css/app.css": {
-    "file": "assets/app-B5KKQR0y.css",
+    "file": "assets/app-EPNvVE0e.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },

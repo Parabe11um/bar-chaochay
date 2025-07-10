@@ -52,7 +52,8 @@
             data-image-src="{{ asset('images/7.jpg') }}">
             <div class="container py-[6rem] xl:!py-[9rem] lg:!py-[9rem] md:!py-[9rem] !text-center">
                 <h2 class="xl:!text-[2.5rem] !text-[calc(1.375rem_+_1.5vw)] !leading-[1.15] font-semibold !text-white  !mb-0">
-                    Прекрасная атмосфера и место,<br class="hidden xl:block lg:block md:block">где можно выпить чай</h2>
+                    Где чай — больше, чем напиток.
+                </h2>
             </div>
             <!-- /.container -->
         </div>

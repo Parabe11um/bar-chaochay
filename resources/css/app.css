@@ -111,7 +111,16 @@
     background-image: url("../../public/images/main-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
+
+/* Мобильные устройства */
+@media (max-width: 640px) {
+    .main-top-bg {
+        background-image: url("../../public/images/mobile-screen-1.png");
+    }
+}
+
 
 .main-top-cta{
     align-content: center;

@@ -16,6 +16,17 @@
                                 <input type="text" name="name" required placeholder="Имя *" class="w-full border rounded p-3" />
                                 <input type="email" name="email" required placeholder="Email *" class="w-full border rounded p-3" />
                                 <textarea name="message" required placeholder="Сообщение *" class="w-full border rounded p-3 h-40"></textarea>
+                                <div class="mb-4">
+                                    <label class="inline-flex items-start">
+                                        <input type="checkbox" name="consent" required class="mt-1 mr-2">
+                                        <span>
+            Я согласен(а) с
+            <a href="{{ route('policy') }}" target="_blank" class="text-blue-600 underline">
+                политикой обработки персональных данных
+            </a> *
+        </span>
+                                    </label>
+                                </div>
                                 <button type="submit" class="bg-green-600 text-white py-2 px-6 rounded hover:bg-green-700">Отправить</button>
                             </form>
 

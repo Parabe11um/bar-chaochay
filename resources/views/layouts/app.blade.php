@@ -34,6 +34,7 @@
     @endif
 
     <title>{{ config('app.name', 'Laravel') }}</title>
+    <link rel="icon" href="{{ asset('/images/favicon.png') }}" type="image/png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">

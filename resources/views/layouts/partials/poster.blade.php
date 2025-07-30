@@ -29,7 +29,11 @@
                                             >
                                             <figcaption class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10 before:absolute before:inset-0 before:bg-black/60 before:content-[''] before:z-0">
                                                 <div class="text-white text-sm max-w-md px-4 text-left leading-snug space-y-2 relative z-10">
-                                                    {!! $event->description !!}
+                                                    @if(now()->gt(\Carbon\Carbon::parse($event->event_date)))
+                                                        Регистрация на мероприятие окончена
+                                                    @else
+                                                        {!! $event->description !!}
+                                                    @endif
                                                 </div>
                                             </figcaption>
                                         </figure>
@@ -53,6 +57,7 @@
                                 </article>
                             </div>
                         @endforeach
+
                     </div>
                     <!--/.swiper-wrapper -->
                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>

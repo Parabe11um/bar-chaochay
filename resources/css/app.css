@@ -133,6 +133,8 @@
 
 /* Cookie banner */
 
+/* styles for cookie-banner */
+
 #cookie-banner {
     position: fixed;
     bottom: 0;
@@ -164,12 +166,11 @@
 }
 
 .cookie-text a {
-    color: #28a745;
-    text-decoration: none;
+    text-decoration: dashed;
 }
 
-#cookie-accept {
-    background-color: #28a745;
+#cookie-agree-button {
+    background-color: #71C913;
     border: none;
     border-radius: 25px;
     color: #fff;
@@ -180,7 +181,11 @@
     margin-right: 1rem;
 }
 
-#cookie-accept:hover {
+#cookie-banner.hidden {
+    display: none !important;
+}
+
+#cookie-agree-button:hover {
     background-color: #52910E;
 }
 

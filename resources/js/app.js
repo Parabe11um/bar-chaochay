@@ -28,16 +28,27 @@ window.Swiper = Swiper;
 window.axios.defaults.headers.common['X-CSRF-TOKEN'] =
     document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 
-document.addEventListener('DOMContentLoaded', function() {
-    const cookieBanner = document.getElementById('cookie-banner');
-    const cookieAcceptBtn = document.getElementById('cookie-accept');
+document.addEventListener("DOMContentLoaded", function () {
+    const banner = document.getElementById("cookie-banner");
+    const agreeButton = document.getElementById("cookie-agree-button");
 
-    if(localStorage.getItem('cookieAccepted')) {
-        cookieBanner.style.display = 'none';
+    if (!banner || !agreeButton) return;
+
+    // Скрываем сразу, если кука уже установлена
+    if (document.cookie.includes("cookie_consent=true")) {
+        banner.remove(); // Удаляем из DOM
+        return;
     }
 
-    cookieAcceptBtn.addEventListener('click', function() {
-        localStorage.setItem('cookieAccepted', 'true');
-        cookieBanner.style.display = 'none';
+    agreeButton.addEventListener("click", function () {
+        // Устанавливаем cookie на 1 год
+        document.cookie = "cookie_consent=true; path=/; max-age=" + 60 * 60 * 24 * 365;
+
+        // Безопасное удаление из DOM
+        try {
+            banner.remove(); // Самый надёжный способ
+        } catch (e) {
+            banner.style.display = "none";
+        }
     });
 });

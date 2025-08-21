@@ -46,7 +46,15 @@ class NewsResource extends Resource
             TextColumn::make('title')->label('Заголовок')->searchable()->limit(50),
             TextColumn::make('published_at')->label('Публикована')->dateTime()->sortable(),
             IconColumn::make('is_active')->boolean()->label('Активна'),
-        ])->defaultSort('published_at', 'desc');
+        ])
+        ->defaultSort('published_at', 'desc')
+        ->actions([
+        Tables\Actions\EditAction::make()->label('Изменить'),
+        Tables\Actions\DeleteAction::make()->label('Удалить'),
+    ])
+        ->bulkActions([
+            Tables\Actions\DeleteBulkAction::make()->label('Удалить выбранные'),
+        ]);
     }
 
     public static function getPages(): array

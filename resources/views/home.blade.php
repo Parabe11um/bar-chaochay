@@ -46,6 +46,7 @@
         @include('layouts.partials.about')
         @include('layouts.partials.slider')
         @include('layouts.partials.poster', ['events' => $events])
+        @livewire('news-block')
         <!-- /section -->
         <div
             class="wrapper image-wrapper bg-no-repeat bg-cover bg-center relative z-0 text-white

@@ -46,6 +46,8 @@
         @include('layouts.partials.about')
         @include('layouts.partials.slider')
         @include('layouts.partials.poster', ['events' => $events])
+
+        @php($hasNews = \App\Models\News::active()->exists())
         @if ($hasNews)
             @livewire('news-block')
         @endif

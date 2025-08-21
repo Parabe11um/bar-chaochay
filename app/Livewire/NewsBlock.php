@@ -4,12 +4,12 @@ namespace App\Livewire;
 
 use App\Models\News;
 use Illuminate\Support\Facades\Storage;
+use Livewire\Attributes\On;
 use Livewire\Component;
 
 class NewsBlock extends Component
 {
     public int $perPage = 9;
-
     public bool $modalOpen = false;
     public array $current = [];
 
@@ -19,10 +19,10 @@ class NewsBlock extends Component
         if (! $item) return;
 
         $this->current = [
-            'title' => $item->title,
+            'title'  => $item->title,
             'teaser' => $item->teaser,
-            'image' => $item->image ? Storage::url($item->image) : null,
-            'body'  => $item->body,
+            'image'  => $item->image ? Storage::url($item->image) : null,
+            'body'   => $item->body,
         ];
         $this->modalOpen = true;
     }
@@ -31,6 +31,15 @@ class NewsBlock extends Component
     {
         $this->modalOpen = false;
         $this->current = [];
+    }
+
+    #[On('open-news')]
+    public function onOpenNews($payload): void
+    {
+        $id = is_array($payload) ? (int)($payload['id'] ?? 0) : (int)$payload;
+        if ($id > 0) {
+            $this->open($id);
+        }
     }
 
     public function render()

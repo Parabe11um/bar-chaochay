@@ -68,6 +68,9 @@
 
 @stack('modals')
 @livewireScripts
+<script>
+    document.addEventListener('livewire:init', () => console.log('✅ Livewire готов'));
+</script>
 <script src="{{ asset('js/plugins.js') }}"></script>
 <script src="{{ asset('js/theme.js') }}"></script>
 @stack('scripts')

@@ -1,5 +1,5 @@
 <?php
-namespace App\Filament\Resources;
+namespace App\Filament\Admin\Resources;
 
 use App\Models\News;
 use Filament\Forms;

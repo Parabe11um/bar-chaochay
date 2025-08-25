@@ -1,6 +1,6 @@
 <section id="news" class="wrapper bg-[rgba(246,247,249,1)] py-16">
     <div class="container mx-auto px-4">
-        <h2 class="text-2xl md:text-3xl font-semibold text-center mb-10">Новости</h2>
+        <h2 class="text-2xl md:text-3xl font-semibold text-center mb-10">Новости бара</h2>
 
         <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             @foreach($items as $item)

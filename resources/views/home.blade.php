@@ -20,7 +20,7 @@
                 </div>
                 <div class="flex flex-col items-center md:flex-row md:justify-between">
                 <div
-                        class="text-left text-white font-medium hidden md:block opacity-0 translate-x-[-40px] transition-all duration-1000 delay-200"
+                        class="text-left text-white text-[1rem] hidden md:block opacity-0 translate-x-[-40px] transition-all duration-1000 delay-200"
                         x-data x-init="$el.classList.remove('opacity-0', 'translate-x-[-40px]')">
                         <p>✔️ Эксклюзивный китайский чай</p>
                         <p>✔️ Локация на Красном Октябре</p>

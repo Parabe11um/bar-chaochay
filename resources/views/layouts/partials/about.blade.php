@@ -16,7 +16,7 @@
 
                 <div class="md:w-6/12 lg:w-6/12 xl:w-6/12 !px-[15px]  w-full flex-[0_0_auto] max-w-full xl:!order-2 lg:!order-2 !mx-auto md:!px-[20px] lg:!px-[20px] xl:!px-[35px] !mt-[30px]">
                     <div class="xl:w-12/12 lg:w-12/120.7 w-full flex-[0_0_auto] max-w-full md:!px-[20px] lg:!px-[20px] xl:!px-[35px]">
-                        <p>У нас можно:</p>
+                        <p class="text-[1.5rem]">У нас можно:</p>
                         <ul>
                             <li class="lead !text-[0.9rem] !leading-[1.55] font-medium">Просто вайбово попить чайку самостоятельно или с друзьями</li>
                             <li class="lead !text-[0.9rem] !leading-[1.55] font-medium">Взять чай на вынос</li>

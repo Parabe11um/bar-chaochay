@@ -30,9 +30,9 @@
             <div class="widget !mb-8">
                 <h4 class="widget-title !text-white !mb-[0.75rem] !text-[1rem] !tracking-[normal] font-semibold !leading-[1.45]">
                     Контакты</h4>
-                <address class=" not-italic !leading-[inherit] !mb-[1rem]">г. Москва, Берсеневский пер 5с2</address>
+                <address class=" not-italic !leading-[inherit] !mb-[1rem]">г. Москва, улица Фридриха Энгельса, 7-21</address>
                 <a class="!text-[#cacaca] hover:!text-[#28a745]"
-                   href="mailto:bar@chaochay.ru">bar@chaochay.ru</a><br><a href="tel:+79258799942">8-925-87-999-42</a>
+                   href="mailto:bar@chaochay.ru">bar@chaochay.ru</a><br><a href="tel:+79253901424">8-925-390-14-24</a>
             </div>
             <!-- /.widget -->
             <div class="widget !mb-8">

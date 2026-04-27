@@ -7,7 +7,7 @@
                 <div class="flex flex-col items-center text-white text-center px-6 py-20 sm:min-h-[60vh] md:min-h-[50vh] md:h-[60vh] lg:min-h-[20vh] lg:h-[20vh] xl:min-h-[20vh] xl:h-[20vh]">
                     <h1 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 opacity-0 transition-opacity duration-1000 delay-200"
                         x-data x-init="$el.classList.remove('opacity-0')">
-                        Андеграунд чай`на бар
+                        Чайный бар
                     </h1>
 
                     <p x-data="typeEffect('Чай в ритме города', 60)"

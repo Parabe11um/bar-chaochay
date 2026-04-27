@@ -6,7 +6,7 @@
                     <a href="{{ route('home') }}">
                         <x-application-logo/>
                     </a>
-                    <p class="lead text-[0.9rem] font-medium !leading-[1.65] !mb-0">Ждём вас каждый день, без выходных, с 14.00 до 22.00.</p>
+                    <p class="lead text-[0.9rem] font-medium !leading-[1.65] !mb-0">Ждём вас каждый день, без выходных, с 11.00 до 19.00.</p>
                 </div>
                 <!-- /.widget -->
             </div>
@@ -19,7 +19,7 @@
                         </div>
                         <div>
                             <h5 class="!mb-1">Телефон</h5>
-                            <p class="!mb-0"><a href="tel:+79258799942">8-925-87-999-42</a></p>
+                            <p class="!mb-0"><a href="tel:+79253901424">8-925-390-14-24</a></p>
                         </div>
                     </div>
                     <!--/div -->
@@ -35,7 +35,7 @@
                         </div>
                         <div class="!self-start !justify-start">
                             <h5 class="!mb-1">Адрес</h5>
-                            <address class=" not-italic !leading-[inherit] !mb-4">г. Москва, Берсеневский пер 5с2, цокольный эт., Ориентир Livestars family</address>
+                            <address class=" not-italic !leading-[inherit] !mb-4">г. Москва, г. Москва, улица Фридриха Энгельса, 7-21</address>
                         </div>
                     </div>
                     <!--/div -->

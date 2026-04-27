@@ -32,7 +32,7 @@
             <div class="offcanvas-footer xl:!hidden lg:!hidden">
                 <div>
                     <a href="mailto:first.last@email.com" class="link-inverse">bar@chaochay.ru</a>
-                    <br> <a href="tel:+79258799942">8-925-87-999-42</a>  <br>
+                    <br> <a href="tel:+79253901424">8-925-390-14-24</a>  <br>
                     <nav class="nav social social-white !mt-4">
                         <a target="_blank" class="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
                            href="https://t.me/barchaochay"><img class="h-[20px] w-[20px]" src="{{ asset('images/telegram-brands-solid.svg') }}" alt=""></a>
